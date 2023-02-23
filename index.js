@@ -81,3 +81,27 @@ function getTotalQuantity(arr) {
 
 const result4 = getTotalQuantity(products);
 console.log(result4); // Final result should be: 150
+
+/* 5. Use reduce method and maybe another one 😏 to create a function that takes an array
+ of products and returns the average price of all the products with category 'electronics'.
+The response must be a number. */
+
+const products2 = [
+  { name: "Samsung Smart TV", price: 500, category: "electronics" },
+  { name: "iPhone 12", price: 1000, category: "electronics" },
+  { name: "Macbook Pro", price: 2000, category: "electronics" },
+  { name: "Lenovo ThinkPad", price: 300, category: "electronics" },
+  { name: "Dell XPS", price: 400, category: "electronics" },
+  { name: "The Lord of the Rings", price: 10, category: "books" },
+  { name: "Harry Potter and the Philosopher's Stone", price: 20, category: "books" },
+  { name: "The Hobbit", price: 30, category: "books" },
+  { name: "The Chronicles of Narnia", price: 40, category: "books" },
+  { name: "The Little Prince", price: 50, category: "books" },
+];
+
+function getAveragePrice(arr) {
+  // your code here
+}
+
+const result5 = getAveragePrice(products2);
+console.log(result5); // Final result should be: 840
