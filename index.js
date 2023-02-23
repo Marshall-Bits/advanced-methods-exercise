@@ -122,3 +122,16 @@ const result6 = getCommonElements([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
 
 console.log(result6); // Final result should be: [5, 4, 3]
 
+/* 7 Write a function that takes an array of integers as input and returns the longest consecutive sequence of 
+integers in the array. The output should be an array of integers, sorted in ascending order.
+
+For example, if the input array is [1, 3, 2, 4, 5, 7, 8, 9], the function should return [1, 2, 3, 4, 5].
+*/
+
+function getLongestConsecutiveSequence(arr) {
+  // your code here
+}
+
+const result7 = getLongestConsecutiveSequence([1, 3, 2, 4, 5, 7, 8, 9]);
+
+console.log(result7); // Final result should be: [1, 2, 3, 4, 5]
