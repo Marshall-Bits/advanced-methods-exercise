@@ -105,3 +105,20 @@ function getAveragePrice(arr) {
 
 const result5 = getAveragePrice(products2);
 console.log(result5); // Final result should be: 840
+
+/* 6 Write a function that takes two arrays of integers as input and returns a new array 
+with only the integers that are present in both arrays, but without any duplicates. 
+The output array should be sorted in descending order.
+
+For example, if the two input arrays are [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7], the output array should be [5, 4, 3]. 
+Note that the output array does not contain any duplicates and is sorted in descending order.
+*/
+
+function getCommonElements(arr1, arr2) {
+  // your code here
+}
+
+const result6 = getCommonElements([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+
+console.log(result6); // Final result should be: [5, 4, 3]
+
